@@ -1,12 +1,13 @@
 plugins {
     id 'java'
+    id 'org.springframework.boot' version '2.3.3.RELEASE'
 }
 
 group 'cn.org.springbook'
 version '0.1-SNAPSHOT'
 
-sourceCompatibility = "1.8"
-
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 repositories {
     mavenCentral()
